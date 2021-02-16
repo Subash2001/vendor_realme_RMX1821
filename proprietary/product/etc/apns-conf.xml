@@ -20115,7 +20115,8 @@
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
-    <apn carrier="Airtel Internet new"
+<!--Mohit.Rewtani@PSW.NW.DATA.665973,2020/11/20,modify airtel apn name,mms apn mmsproxy and mmsc. begin-->
+    <apn carrier="Airtel Internet"
         mcc="413"
         mnc="05"
         apn="airtellive"
@@ -20123,15 +20124,16 @@
         type="default,supl"
     />
 
-    <apn carrier="Airtel MMS new"
+    <apn carrier="Airtel MMS"
         mcc="413"
         mnc="05"
         apn="airtellive"
-        mmsproxy="10.200.184.86"
+        mmsproxy="10.200.252.57"
         mmsport="8080"
-        mmsc="http://mmsc/"
+        mmsc="http://mmscvip/"
         type="mms"
     />
+<!--Mohit.Rewtani@PSW.NW.DATA.665973,2020/11/20,modify airtel apn name,mms apn mmsproxy and mmsc. end-->
 
     <apn carrier="HUTCH3G"
         mcc="413"
