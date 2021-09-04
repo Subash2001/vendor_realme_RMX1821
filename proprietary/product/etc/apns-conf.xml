@@ -23808,6 +23808,7 @@
       mmsport="80"
       authtype="1"
       type="mms"
+      protocol="IPV4V6"
   />
 
 <!-- ZhaoJi.Yang@PSW.NW.DATA.2295055, 2019/09/18, modify for add protocol, start -->
@@ -23823,6 +23824,26 @@
       type="default,supl,mms"
       authtype="1"
       protocol="IPV4V6"
+  />
+<!-- Junfeng.Gao@ODM_WT.NW.IMS.2811340, 2020/10/14, add Malaysia Maxis vowifi support-->
+  <apn carrier="IMS"
+       mcc="502"
+       mnc="12"
+       apn="ims"
+       type="ims"
+       protocol="IPV4V6"
+       roaming_protocol="IPV4V6"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+  />
+  
+  <apn carrier="HOS"
+       mcc="502"
+       mnc="12"
+       apn="hos"
+       type="xcap"
+       protocol="IPV4V6"
+       roaming_protocol="IPV4V6"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
 <!-- ZhaoJi.Yang@PSW.NW.DATA.2295055, 2019/09/18, modify for add authtype, end -->
   <apn carrier="Celcom Internet"
@@ -23848,14 +23869,6 @@
       roaming_protocol="IPV4V6"
   />
 <!-- chenguoyao@PSW.NW.IMS.2071716, 2019/10/10,  add for IMS requirement end  -->
-  <apn carrier="IMS"
-      mcc="502"
-      mnc="19"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
 
 <!-- Yuanfei.Liu@PSW.NW.DATA.1502528, 2018/08/02, modify for add protocol, start -->
    <apn carrier="IMS"
@@ -23865,6 +23878,7 @@
        type="ims"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
+       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
    />
 
   <apn carrier="Digi MMS"
@@ -23884,6 +23898,7 @@
       mcc="502"
       mnc="16"
       apn="diginet"
+      authtype="1"
       type="default,supl"
       protocol="IPV4V6"
   />
@@ -23895,6 +23910,7 @@
        type="ims"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
+       bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
    />
 
    <apn carrier="hos"
@@ -23907,6 +23923,36 @@
     network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19"
   />
 
+   <apn carrier="Maxis Internet"
+        mcc="502"
+        mnc="17"
+        apn="unet"
+        type="default,supl,mms"
+        mmsc="http://172.16.74.100:10021/mmsc"
+        mmsproxy="202.75.133.49"
+        mmsport="80"
+        authtype="1"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+   />
+    <apn carrier="IMS"
+         mcc="502"
+         mnc="17"
+         apn="ims"
+         type="ims"
+         protocol="IPV4V6"
+         roaming_protocol="IPV4V6"
+         network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+    />
+    <apn carrier="HOS"
+         mcc="502"
+         mnc="17"
+         apn="hos"
+         type="xcap"
+         protocol="IPV4V6"
+         roaming_protocol="IPV4V6"
+         network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+    />
 <!-- Yuanfei.Liu@PSW.NW.DATA.1502528, 2018/08/02, modify for add protocol, end -->
   <apn carrier="U Mobile Internet"
       mcc="502"
@@ -23916,7 +23962,27 @@
       mmsproxy="10.30.5.11"
       mmsport="8080"
       type="default,supl,mms"
+      protocol="IPV4V6"
   />
+<!-- Junfeng.Gao@ODM_WT.NW.IMS.2813441, 2020/09/28, add Malaysia ims apn-->
+  <apn carrier="IMS"
+      mcc="502"
+      mnc="18"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+  />
+  <apn carrier="XCAP"
+      mcc="502"
+      mnc="18"
+      apn="XCAP"
+      type="xcap"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
+  />  
 
   <apn carrier="Celcom Internet"
       mcc="502"
@@ -23966,6 +24032,7 @@
       mnc="153"
       apn="unifi"
       type="default"
+      protocol="IPV4V6"
   />
 
    <apn carrier="IMS"
