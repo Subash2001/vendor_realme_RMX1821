@@ -52,4 +52,15 @@ PRODUCT_COPY_FILES += \
 
 
 PRODUCT_PACKAGES += \
-    EngineerMode
+    EngineerMode \
+    ImsService \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base \
+    mediatek-ims-common \
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common \
+    mediatek-ims-extension-plugin \
+    mediatek-ims-legacy \
+    mediatek-wfo-legacy \
